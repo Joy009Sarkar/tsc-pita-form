@@ -8,7 +8,7 @@
     <title>form-practice</title>
     <style>
         body {
-            background-image: linear-gradient(lightblue, orange, coral);
+            background-image: linear-gradient(lightblue, orange, #87CEFA);
         }
 
         h1 {
@@ -19,18 +19,31 @@
             margin-top: 0%;
             margin-left: 35%;
             border-radius: 4%;
+
+            box-shadow: 5px 5px darkred;
         }
 
         h1:hover {
             color: crimson;
-            background-image: linear-gradient(yellowgreen, orange);
+            background-image: linear-gradient(orange);
             width: 25.5%;
             margin-left: 35%;
             margin-top: 0%;
-            border: 1px solid black;
-            border-radius: 4%;
+            box-shadow: 5px 5px crimson;
+            /* border: 1px solid black;
+            border-radius: 4%; */
             text-align: center;
 
+        }
+
+        h2 {
+
+            margin-right: 85.3%;
+            border: 0.1px solid lightblue;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 5px 5px #454545;
+            /* black; */
         }
 
         h2:hover {
@@ -39,11 +52,14 @@
 
         h3 {
             background-color: aliceblue;
-            border: 0.5px solid black;
-            border-radius: 2px;
+            border: 0.5px solid white;
+            border-radius: 4px;
             text-align: center;
 
+
             background-image: linear-gradient(skyblue, lightblue, cyan, khaki);
+            box-shadow: 3px 3px #900C3F;
+            #FF5733;
         }
 
         h3:hover {
@@ -59,43 +75,48 @@
         }
 
         .Subjects {
-            background-color: aqua;
+
+            background-image: linear-gradient(tomato, orange);
+
         }
 
         .Optional-sub {
-            background-color: chartreuse;
+            background-image: linear-gradient(chartreuse, skyblue);
         }
 
         .Painting {
-            background-color: burlywood;
+            background-image: linear-gradient(burlywood, AntiqueWhite);
         }
 
         .Painters {
-            background-color: crimson;
+            background-image: linear-gradient(crimson, pink);
         }
 
         .Car {
-            background-color: cadetblue;
+            background-image: linear-gradient(cadetblue, navy);
         }
 
         .Car-Colours {
-            background-color: coral;
+            background-image: linear-gradient(coral, Cornsilk);
         }
 
-        .Language {
-            background-color: darkorchid;
+        .Cod-Language {
+            background-image: linear-gradient(darkorchid, #008B8B);
         }
 
         .Frame-Works {
-            background-color: darkgray;
+            background-image: linear-gradient(darkgray, #2F4F4F);
         }
 
         .Country {
-            background-color: darkolivegreen;
+            background-image: linear-gradient(darkolivegreen, #ADFF2F);
+
         }
 
+
+
         .Language {
-            background-color: gold;
+            background-image: linear-gradient(gold, red);
         }
     </style>
 
@@ -103,7 +124,7 @@
 
 <body>
     <h1> SURVEY PROJECT FORM </h1>
-    <strong>Let's start</strong>
+    <strong>Let's start !!! </strong>
     <h2>The Survey</h2>
     <form action="">
 
@@ -119,10 +140,10 @@
                 <h3>Select Your Subjects</h3>
             </legend>
 
-            <p> <label for="Robotics"><input type="radio" name="Subjects" id="Robotics"> Robotics</label></p>
+            <p> <label for="EEE"><input type="radio" name="Subjects" id="EEE"> EEE</label></p>
 
-            <p><label for="Ar"><input type="radio" name="Subjects" id="Ar">Ar.intelligence</label></p>
-            <p><label for="Computer"><input type="radio" name="Subjects" id="Computer">Computer</label></p>
+            <p><label for="CSE"><input type="radio" name="Subjects" id="CSE">CSE</label></p>
+            <p><label for="CIVIL"><input type="radio" name="Subjects" id="CIVIL">CIVIL</label></p>
 
 
 
@@ -133,10 +154,11 @@
                 <h3>Select Your Optional Subjects</h3>
             </legend>
 
-            <p> <label for="Math"><input type="checkbox" name="Optional" id="Math"> Math</label></p>
+            <p> <label for="Higher-Math"><input type="checkbox" name="Optional" id="Higher-Math">Higher-Math
+                </label></p>
 
             <p><label for="Physics"><input type="checkbox" name="Optional" id="Physics">Physics</label></p>
-            <p><label for="Ict"><input type="checkbox" name="Optional" id="Ict">Ict</label></p>
+            <p><label for="Chemistry"><input type="checkbox" name="Optional" id="Chemistr">Chemistry</label></p>
 
 
 
@@ -212,7 +234,7 @@
 
 
         <h2> Coding Language</h2>
-        <fieldset class="Language">
+        <fieldset class="Cod-Language">
             <legend>
                 <h3>My Favourite</h3>
             </legend>
