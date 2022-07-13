@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form-practice</title>
+    <link rel="stylesheet" href="/styles/nav.css">
     <style>
         body {
             background-image: linear-gradient(lightblue, orange, #87CEFA);
@@ -123,175 +124,203 @@
 </head>
 
 <body>
-    <h1> SURVEY PROJECT FORM </h1>
-    <strong>Let's start !!! </strong>
-    <h2>The Survey</h2>
-    <form action="">
+    <header>
+        <nav>
+            <Ul>
 
-        <p><input type="text" placeholder="write your name" name="" id=""></p>
-        <p><input type="text" placeholder="write your email" name="" id=""></p>
-
-
-
-        <h2>My Subjects</h2>
-
-        <fieldset class="Subjects">
-            <legend>
-                <h3>Select Your Subjects</h3>
-            </legend>
-
-            <p> <label for="EEE"><input type="radio" name="Subjects" id="EEE"> EEE</label></p>
-
-            <p><label for="CSE"><input type="radio" name="Subjects" id="CSE">CSE</label></p>
-            <p><label for="CIVIL"><input type="radio" name="Subjects" id="CIVIL">CIVIL</label></p>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
 
 
 
-        </fieldset>
+            </Ul>
+        </nav>
 
-        <fieldset class="Optional-sub">
-            <legend>
-                <h3>Select Your Optional Subjects</h3>
-            </legend>
+        <h1> SURVEY PROJECT FORM </h1>
 
-            <p> <label for="Higher-Math"><input type="checkbox" name="Optional" id="Higher-Math">Higher-Math
-                </label></p>
+        <strong>Let's start !!! </strong>
+        <h2>The Survey</h2>
+        <form action="">
 
-            <p><label for="Physics"><input type="checkbox" name="Optional" id="Physics">Physics</label></p>
-            <p><label for="Chemistry"><input type="checkbox" name="Optional" id="Chemistr">Chemistry</label></p>
-
-
-
-        </fieldset>
+            <p><input type="text" placeholder="write your name" name="" id=""></p>
+            <p><input type="text" placeholder="write your email" name="" id=""></p>
 
 
 
+            <h2>My Subjects</h2>
+
+            <fieldset class="Subjects">
+                <legend>
+                    <h3>Select Your Subjects</h3>
+                </legend>
+
+                <p> <label for="EEE"><input type="radio" name="Subjects" id="EEE"> EEE</label></p>
+
+                <p><label for="CSE"><input type="radio" name="Subjects" id="CSE">CSE</label></p>
+                <p><label for="CIVIL"><input type="radio" name="Subjects" id="CIVIL">CIVIL</label></p>
+
+
+
+            </fieldset>
+
+            <fieldset class="Optional-sub">
+                <legend>
+                    <h3>Select Your Optional Subjects</h3>
+                </legend>
+
+                <p> <label for="Higher-Math"><input type="checkbox" name="Optional" id="Higher-Math">Higher-Math
+                    </label></p>
+
+                <p><label for="Physics"><input type="checkbox" name="Optional" id="Physics">Physics</label></p>
+                <p><label for="Chemistry"><input type="checkbox" name="Optional" id="Chemistr">Chemistry</label></p>
+
+
+
+            </fieldset>
 
 
 
 
 
-        <h2>Art Exibition</h2>
 
 
-        <fieldset class="Painting">
-            <legend>
-                <h3>Pick Your Interest</h3>
-            </legend>
-            <p><label for="Oil"><input type="radio" name="Painting" id="Oil">Oil Painting</label></p>
-            <p><label for="Pastel"><input type="radio" name="Painting" id="Pastel">Pastel Painting</label></p>
-            <p><label for="Water"><input type="radio" name="Painting" id="Water">Water Painting</label></p>
 
-        </fieldset>
+            <h2>Art Exibition</h2>
 
-        <fieldset class="Painters">
-            <legend>
-                <h3>Favourite Painters</h3>
-            </legend>
-            <p><label for="Vinci"><input type="checkbox" name="Painters" id="Vinci">Leonardo da Vinci</label></p>
-            <p><label for="Picasso"><input type="checkbox" name="Painters" id="Picasso">Pablo Picasso</label></p>
-            <p><label for="Michelangelo"><input type="checkbox" name="Painters" id="Michelangelo">Michelangelo</label>
+
+            <fieldset class="Painting">
+                <legend>
+                    <h3>Pick Your Interest</h3>
+                </legend>
+                <p><label for="Oil"><input type="radio" name="Painting" id="Oil">Oil Painting</label></p>
+                <p><label for="Pastel"><input type="radio" name="Painting" id="Pastel">Pastel Painting</label></p>
+                <p><label for="Water"><input type="radio" name="Painting" id="Water">Water Painting</label></p>
+
+            </fieldset>
+
+            <fieldset class="Painters">
+                <legend>
+                    <h3>Favourite Painters</h3>
+                </legend>
+                <p><label for="Vinci"><input type="checkbox" name="Painters" id="Vinci">Leonardo da Vinci</label></p>
+                <p><label for="Picasso"><input type="checkbox" name="Painters" id="Picasso">Pablo Picasso</label></p>
+                <p><label for="Michelangelo"><input type="checkbox" name="Painters"
+                            id="Michelangelo">Michelangelo</label>
+                </p>
+
+            </fieldset>
+
+
+
+            <h2>Car Exibition</h2>
+
+            <fieldset class="Car">
+                <legend>
+                    <h3>My favourite Car</h3>
+                </legend>
+                <p><label for="Skoda"><input type="radio" name="Car" id="Skoda"> Skoda</label></p>
+                <p><label for="Volvo"><input type="radio" name="Car" id="Volvo">Volvo</label></p>
+                <p><label for="Tesla"><input type="radio" name="Car" id="Tesla">Tesla</label></p>
+                <p><label for="Volkswagen"><input type="radio" name="Car" id="Volkswagen">Volkswagen</label></p>
+                <p><label for="Toyota"><input type="radio" name="Car" id="Toyota">Toyota</label></p>
+                <p><label for="Ford"><input type="radio" name="Car" id="Ford">Ford</label></p>
+
+
+
+
+            </fieldset>
+
+
+            <fieldset class="Car-Colours">
+                <legend>
+                    <h3>Select Your Colours</h3>
+                </legend>
+                <p><label for="White"><input type="checkbox" name="Colours" id="White"> White</label></p>
+                <p><label for="Black"><input type="checkbox" name="Colours" id="Black">Black</label></p>
+                <p><label for="Violate"><input type="checkbox" name="Colours" id="Violate">Violate</label></p>
+                <p><label for="Orange"><input type="checkbox" name="Colours" id="Orange">Orange</label></p>
+                <p><label for="Red"><input type="checkbox" name="Colours" id="Red">Red</label></p>
+                <p><label for="Blue"><input type="checkbox" name="Colours" id="Blue">Blue</label></p>
+
+
+
+
+            </fieldset>
+
+
+            <h2> Coding Language</h2>
+            <fieldset class="Cod-Language">
+                <legend>
+                    <h3>My Favourite</h3>
+                </legend>
+                <p><label for="JavaScript"><input type="radio" name="Language" id="JavaScript">JavaScript</label></p>
+                <p><label for="Python"><input type="radio" name="Language" id="Python">Python</label></p>
+                <p><label for="Java"><input type="radio" name="Language" id="Java">Java</label></p>
+                <p><label for="Swift"><input type="radio" name="Language" id="Swift">Swift</label></p>
+
+            </fieldset>
+
+            <fieldset class="Frame-Works">
+                <legend>
+                    <h3>Css Frame Works</h3>
+                </legend>
+                <p><label for="Bootstrap"><input type="checkbox" name="Framework" id="Bootstrap">Bootstrap</label></p>
+                <p><label for="Tailwind"><input type="checkbox" name="Framework" id="Tailwind"> Tailwind </label></p>
+                <p><label for=" Foundation"><input type="checkbox" name="Framework" id=" Foundation"> Foundation</label>
+                </p>
+                <p><label for="Bulma"><input type="checkbox" name="Framework" id="Bulma">Bulma</label></p>
+
+            </fieldset>
+
+
+
+
+
+            <h2> Largest Country by Population</h2>
+            <fieldset class="Country">
+                <legend>
+                    <h3>Country</h3>
+                </legend>
+                <p><label for="Bangladesh"><input type="radio" name="Country" id="Bangladesh">Bangladesh</label></p>
+                <p><label for="India"><input type="radio" name="Country" id="India">India</label></p>
+                <p><label for="China"><input type="radio" name="Country" id="China">China</label></p>
+                <p><label for="Nepal"><input type="radio" name="Country" id="Nepal">Nepal</label></p>
+                <p><label for="Bhutan"><input type="radio" name="Country" id="Bhutan">Bhutan</label></p>
+
+
+
+
+            </fieldset>
+
+
+            <fieldset class="Language">
+                <legend>
+                    <h3>Language</h3>
+                </legend>
+                <p><label for="Bengali"><input type="checkbox" name="Country_language" id="Bengali">Bengali</label>
+                </p>
+                <p><label for="Hindi"><input type="checkbox" name="Country_language" id="Hindi">Hindi</label></p>
+                <p><label for="Mandarin"><input type="checkbox" name="Country_language" id="Mandarin">Mandarin</label>
+                </p>
+                <p><label for="Nepali"><input type="checkbox" name="Country_language" id="Nepali">Nepali</label></p>
+                <p><label for="Dzongkha"><input type="checkbox" name="Country_language" id="Dzongkha">Dzongkha</label>
+                </p>
+
+
+
+
+            </fieldset>
+
+
+
+            <p>Special Instruction <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
             </p>
-
-        </fieldset>
-
-
-
-        <h2>Car Exibition</h2>
-
-        <fieldset class="Car">
-            <legend>
-                <h3>My favourite Car</h3>
-            </legend>
-            <p><label for="Skoda"><input type="radio" name="Car" id="Skoda"> Skoda</label></p>
-            <p><label for="Volvo"><input type="radio" name="Car" id="Volvo">Volvo</label></p>
-            <p><label for="Tesla"><input type="radio" name="Car" id="Tesla">Tesla</label></p>
-            <p><label for="Volkswagen"><input type="radio" name="Car" id="Volkswagen">Volkswagen</label></p>
-            <p><label for="Toyota"><input type="radio" name="Car" id="Toyota">Toyota</label></p>
-            <p><label for="Ford"><input type="radio" name="Car" id="Ford">Ford</label></p>
-
-
-
-
-        </fieldset>
-
-
-        <fieldset class="Car-Colours">
-            <legend>
-                <h3>Select Your Colours</h3>
-            </legend>
-            <p><label for="White"><input type="checkbox" name="Colours" id="White"> White</label></p>
-            <p><label for="Black"><input type="checkbox" name="Colours" id="Black">Black</label></p>
-            <p><label for="Violate"><input type="checkbox" name="Colours" id="Violate">Violate</label></p>
-            <p><label for="Orange"><input type="checkbox" name="Colours" id="Orange">Orange</label></p>
-            <p><label for="Red"><input type="checkbox" name="Colours" id="Red">Red</label></p>
-            <p><label for="Blue"><input type="checkbox" name="Colours" id="Blue">Blue</label></p>
-
-
-
-
-        </fieldset>
-
-
-        <h2> Coding Language</h2>
-        <fieldset class="Cod-Language">
-            <legend>
-                <h3>My Favourite</h3>
-            </legend>
-            <p><label for="JavaScript"><input type="radio" name="Language" id="JavaScript">JavaScript</label></p>
-            <p><label for="Python"><input type="radio" name="Language" id="Python">Python</label></p>
-            <p><label for="Java"><input type="radio" name="Language" id="Java">Java</label></p>
-            <p><label for="Swift"><input type="radio" name="Language" id="Swift">Swift</label></p>
-
-        </fieldset>
-
-        <fieldset class="Frame-Works">
-            <legend>
-                <h3>Css Frame Works</h3>
-            </legend>
-            <p><label for="Bootstrap"><input type="checkbox" name="Framework" id="Bootstrap">Bootstrap</label></p>
-            <p><label for="Tailwind"><input type="checkbox" name="Framework" id="Tailwind"> Tailwind </label></p>
-            <p><label for=" Foundation"><input type="checkbox" name="Framework" id=" Foundation"> Foundation</label></p>
-            <p><label for="Bulma"><input type="checkbox" name="Framework" id="Bulma">Bulma</label></p>
-
-        </fieldset>
-
-
-
-
-
-        <h2> Largest Country by Population</h2>
-        <fieldset class="Country">
-            <legend>
-                <h3>Country</h3>
-            </legend>
-            <p><label for="Bangladesh"><input type="radio" name="Country" id="Bangladesh">Bangladesh</label></p>
-            <p><label for="India"><input type="radio" name="Country" id="India">India</label></p>
-            <p><label for="China"><input type="radio" name="Country" id="China">China</label></p>
-            <p><label for="Nepal"><input type="radio" name="Country" id="Nepal">Nepal</label></p>
-            <p><label for="Bhutan"><input type="radio" name="Country" id="Bhutan">Bhutan</label></p>
-
-
-
-
-        </fieldset>
-
-
-        <fieldset class="Language">
-            <legend>
-                <h3>Language</h3>
-            </legend>
-            <p><label for="Bengali"><input type="checkbox" name="Country_language" id="Bengali">Bengali</label>
-            </p>
-            <p><label for="Hindi"><input type="checkbox" name="Country_language" id="Hindi">Hindi</label></p>
-            <p><label for="Mandarin"><input type="checkbox" name="Country_language" id="Mandarin">Mandarin</label></p>
-            <p><label for="Nepali"><input type="checkbox" name="Country_language" id="Nepali">Nepali</label></p>
-            <p><label for="Dzongkha"><input type="checkbox" name="Country_language" id="Dzongkha">Dzongkha</label></p>
-
-
-
-
-        </fieldset>
+            <p><button type="reset">Reset</button></p>
+            <p><button type="submit">submit</button></p>
 
 
 
@@ -299,12 +328,7 @@
 
 
 
-
-
-
-
-
-    </form>
+        </form>
 
 
 

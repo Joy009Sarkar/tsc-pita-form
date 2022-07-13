@@ -1,0 +1,45 @@
+nav>ul {
+    display: flex;
+    margin-left: 25%;
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav li a:hover {
+    background-color: cadetblue;
+}
+
+nav li a {
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+}
+
+
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+    padding: 0;
+
+
+    background-color: antiquewhite;
+}
+
+nav>ul>li:hover>ul>li {
+    padding: 0;
+}
+
+.dropdown {
+    display: none;
+
+}
+
+.dropdown li {
+
+    margin: 0;
+}
